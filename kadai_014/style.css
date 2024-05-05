@@ -24,14 +24,11 @@ h1 {
     color: rgb(255, 192, 203);
   }
 }
+#basic { font-weight: bold;}
 
 .color-pink {
     color: rgb(255, 192, 203);
   }
 .color-blue {
     color: skyblue;
-  }
-
-.text1 {
-    font-weight:bold;
   }
