@@ -1,38 +1,37 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Arial","Meiryo",sans-serif;
+  text-align: center;
+}
+
 h1 {
   /* ここにGoogle Fontsを指定します */
   font-family: "Josefin Sans", sans-serif;
-  font-size: 40px;
+  font-size: 200%;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 1.2em;
   text-shadow: 3px 3px 2px gray;
   border-bottom: 3px solid rgb(115,115,114);
+  span.m  {
+    color:skyblue
+  }
+  span.p {
+    color: rgb(255, 192, 203);
+  }
 }
 
-
-h1 span.m {
-  color:skyblue
-}
-
-h1 span.p {
-  color: rgb(255, 192, 203);
-}
-
-body {
-  font-family: "Arial","Meiryo",sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-
-h2.color-pink {
-  color: rgb(255, 192, 203);
-}
-
-h2.color-blue {
-  color: skyblue;
-}
+.color-pink {
+    color: rgb(255, 192, 203);
+  }
+.color-blue {
+    color: skyblue;
+  }
 
 .text1 {
-  font-weight:bold;
-}
+    font-weight:bold;
+  }
